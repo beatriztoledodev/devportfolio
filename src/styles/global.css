@@ -3,3 +3,12 @@
 body {
   font-family: 'IBM Plex Mono', monospace;
 }
+
+/* About skills hover use accent color from --accent-color */
+.about-skill-button {
+  transition: background-color .2s, color .2s;
+}
+.about-skill-button:hover {
+  background-color: var(--accent-color) !important;
+  color: #ffffff !important;
+}
